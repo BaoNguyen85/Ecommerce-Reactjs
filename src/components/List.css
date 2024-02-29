@@ -1,0 +1,14 @@
+.list-container {
+    transition: transform 0.3s ease; /* Thiết lập hiệu ứng chuyển động */
+}
+
+.list-container:hover {
+    transform: scale(1.05); /* Phóng to 105% khi hover */
+}
+.list-hover {
+    transition: transform 0.3s ease;
+}
+.list-hover:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(12, 89, 222);
+}

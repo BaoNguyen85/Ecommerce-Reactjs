@@ -1,0 +1,7 @@
+.product-container {
+    transition: transform 0.3s ease; /* Thiết lập hiệu ứng chuyển động */
+}
+
+.product-container:hover {
+    transform: scale(1.05); /* Phóng to 105% khi hover */
+}
